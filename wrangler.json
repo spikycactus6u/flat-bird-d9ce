@@ -1,0 +1,30 @@
+{
+  "name": "flat-bird-d9ce",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "fancy-lake-16f4-d1",
+      "database_id": "89b47052-689e-462d-b770-3b736a11e0b4"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "flat-bird-d9ce-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
